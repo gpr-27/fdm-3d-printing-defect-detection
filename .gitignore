@@ -1,0 +1,19 @@
+# Data and weights are too large for GitHub (images ~6.3 GB; AlexNet checkpoint ~228 MB > 100 MB limit)
+data/
+data_binary/
+models/*.pth
+*.pt
+*.pth
+
+# Python / notebooks
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/

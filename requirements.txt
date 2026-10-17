@@ -1,0 +1,12 @@
+# Versions used for the re-runs (ResNet18 + binary notebooks) on Apple M3 Pro / MPS, Python 3.12.
+# The original AlexNet / InceptionV3 notebooks ran in an Anaconda Python 3.12.2 environment.
+torch>=2.6
+torchvision>=0.21
+numpy
+pillow
+scikit-learn
+matplotlib
+seaborn
+tqdm
+jupyter
+pytest
